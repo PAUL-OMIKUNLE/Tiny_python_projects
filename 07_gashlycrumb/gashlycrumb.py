@@ -11,13 +11,13 @@ def get_args():
 
     parser = argparse.ArgumentParser(
         description='Interactive Gashlycrumb',
-        formatter_class=argparse.ArgumentDefaultsHelpFormatter) #thiswould help us figure out all hearguments
+        formatter_class=argparse.ArgumentDefaultsHelpFormatter) #this would help us figure out all arguments
 
-    parser.add_argument('-f',         #telling the parser to expect use a file arguments to be used 
+    parser.add_argument('-f',         #telling the parser to  use a file arguments to be used 
                         '--file',
                         help='Input file',
                         metavar='str',
-                        type=argparse.FileType('r'), #file type type argument to be used ithe main
+                        type=argparse.FileType('r'), #file type type argument to be used in the main
                         default='gashlycrumb.txt') #making use of the text file
 
     return parser.parse_args()
