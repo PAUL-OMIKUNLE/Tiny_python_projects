@@ -9,3 +9,4 @@ This repository contains codes form the"Tiny Python Projects" by "Ken Youens-Cla
 - [x] Chapter 5: Howler
 - [x] Chapter 6: Wc
 - [x] Chapter 7: Grashlycrumb (Looking up items in a dictionary)
+- [x] Chapter 8: Apples and Banannas (Find and replace)
