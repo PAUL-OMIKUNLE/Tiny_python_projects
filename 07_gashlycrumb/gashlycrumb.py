@@ -28,8 +28,8 @@ def main():
     """Make a jazz noise here"""
 
     args = get_args() #et the file arguments above
-    lookup = {line[0]: line.rstrip() for line in args.file} #a key value to look up the first letter in each line and the 'strip it to each sentence' in the file argument
-
+    lookup = {line[0]: line.rstrip() for line in args.file}
+ #a key value to look up the first letter in each line and the 'strip it to each sentence' in the file argument
     while True:
         letter = input('Please provide a letter [! to quit]: ') #input a letter
 
@@ -37,9 +37,9 @@ def main():
             print('Bye')
             break
 
-        print(lookup.get(letter.upper(), f'I do not know "{letter}".')) #to get number in upper case if not program returns i do not know the number
+        print(lookup.get(letter.upper(), f'I do not know "{letter}".'))
 
-
+ # returns i do not know if a number is inputed or a letter not in the dictionnary 
 # --------------------------------------------------
 if __name__ == '__main__': #to identify  the module, so it can be applied to the main, 
     main()
