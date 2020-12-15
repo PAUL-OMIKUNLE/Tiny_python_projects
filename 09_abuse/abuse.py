@@ -32,13 +32,12 @@ def get_args():
                         help='Random seed',
                         metavar='seed',
                         type=int,
-                        default=None) #Get the result of parsing the command-line arguments. The argparse module will handle errors such as non-integer values.
-
+                        default=None) #The random seed default should be None.
     args = parser.parse_args() #Get the result of parsing the command-line arguments. The argparse module will handle errors such as non-integer values.
 
     if args.adjectives < 1:
-        parser.error(f'--adjectives "{args.adjectives}" must be > 0') #Get the result of parsing the command-line arguments
-                                                                        #The argparse module will handle errors such as non-integer values.
+        parser.error(f'--adjectives "{args.adjectives}" must be > 0') #Check that args.adjectives is greater than 0. 
+                                                                      #If there is a problem, call parser.error() with the error message.
     if args.number < 1:
         parser.error(f'--number "{args.number}" must be > 0') #Similarly check args.number
 
