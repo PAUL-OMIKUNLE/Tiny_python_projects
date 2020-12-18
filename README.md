@@ -11,3 +11,4 @@ This repository contains codes form the"Tiny Python Projects" by "Ken Youens-Cla
 - [x] Chapter 7: Grashlycrumb (Looking up items in a dictionary)
 - [x] Chapter 8: Apples and Banannas (Find and replace)
 - [x] Chapter 9: Dial-a-Curse( Generating random insults from lists of words)
+- [x] Chapter 10: Telephone (Randomly mutating strings)
