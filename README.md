@@ -3,7 +3,7 @@
 This is repository contains codes form the "Tiny Python Projects" Book by Ken Youens-Clark. of the book.
 
 Usage
- -[x] Chapter 1: How to write and test a Python program link
+ -[X] Chapter 1: How to write and test a Python program link
  -[x] Chapter 2: The crow’s nest; Working with strings link
  -[x] Chapter 3: Going on a picnic; Working with lists link
  -[x] Chapter 4: Jump the Five; Working with dictionaries link
